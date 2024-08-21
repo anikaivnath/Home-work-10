@@ -1,17 +1,13 @@
-let icon = document.getElementById("icon");
-let btn = document.getElementById("btn");
+const btn = document.getElementById("btn");
 
-icon.addEventListener('mouseover',()=>{
-    icon.classList.remove('fa-bars');
-    icon.classList.add('fa-times');
-    btn.style.backgroundColor='rgb(255, 99, 132)';
-
+btn.addEventListener("mouseover", () => {
+    btn.classList.add("hovered");
+    btn.style.backgroundColor="rgb(253, 166, 181)";
+    
+    
 });
-icon.addEventListener('mouseout',()=>{
-    icon.classList.remove('fa-times');
-    icon.classList.add('fa-bars');
-    btn.style.backgroundColor='rgb(132, 143, 235)';
 
-})
-
-
+btn.addEventListener("mouseout", () => {
+    btn.classList.remove("hovered");
+    btn.style.backgroundColor="rgb(152, 166, 190)";
+});
