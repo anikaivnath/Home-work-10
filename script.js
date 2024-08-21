@@ -10,7 +10,7 @@ icon.addEventListener('mouseover',()=>{
 icon.addEventListener('mouseout',()=>{
     icon.classList.remove('fa-times');
     icon.classList.add('fa-bars');
-    btn.style.backgroundColor='rgb(132, 143, 235)'
+    btn.style.backgroundColor='rgb(132, 143, 235)';
 
 })
 
