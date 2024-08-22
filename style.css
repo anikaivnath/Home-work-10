@@ -21,7 +21,8 @@ h2{
     height: 30px;
     cursor: pointer;
     position: fixed;
-   background-color:rgb(152, 166, 190);
+    background-color: blue;
+  
     
 
     
@@ -44,6 +45,7 @@ h2{
 .line2 {
     top: 50%;
     transform: translateY(-50%);
+    transition: 0.3s;
 }
 
 .line3 {
@@ -56,6 +58,7 @@ h2{
 }
 #btn.hovered .line2{
  opacity: 0;
+ 
 }
 #btn.hovered .line3{
     transform: rotate(-45deg) translate(12px,-5px);
